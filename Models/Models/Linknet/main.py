@@ -231,7 +231,7 @@ if __name__ == '__main__':
         print("Trained model saved to:", model_save_path)
 
         # Testing the trained model
-        print('Testing the best U-Net model on testing data and saving the results to:', str(SaveDir_crops_cv))
+        print('Testing the best Linknet model on testing data and saving the results to:', str(SaveDir_crops_cv))
         # No need to reinitialize the model, use the trained model
         model.eval()
         # Loop through test images and make predictions
